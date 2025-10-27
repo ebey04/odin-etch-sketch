@@ -1,0 +1,12 @@
+#grid-container{
+    border: 2px solid black;
+    height: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    border: 2px solid yellow;
+    height: 50px;
+    width: 50px;
+}

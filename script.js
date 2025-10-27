@@ -5,13 +5,13 @@ const btn = document.querySelector('.btn');
 function showPrompt() {
     const userInput = prompt("How many boxes would you like?");
 
-    if (userInput !== null) {
-        document.getElementById("output").textContent = `You entered: ${userInput}`;
-    } else {
-        document.getElementById("output").textContent = `You clicked Cancel.`;
-    }
+if (userInput !== null) {
+  const num = Number(userInput);
+  gridSize(num);
+} else {
+  document.getElementById("output").textContent = `You clicked Cancel.`;
+}
 
-    gridSize(userInput);
 }
 
 btn.addEventListener("click", showPrompt);
