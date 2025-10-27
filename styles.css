@@ -26,6 +26,9 @@ header{
     box-shadow: 4px 2px 5px grey;
 }
 
+.box:hover{
+    cursor: pointer;
+}
 
 
 #grid-container{
