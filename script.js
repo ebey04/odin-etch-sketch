@@ -11,15 +11,10 @@ if (userInput !== null) {
   gridSize(num);
 } else {
   document.getElementById("output").textContent = `You clicked Cancel.`;
-
-
 }
-
 }
 
 btn.addEventListener("click", showPrompt);
-
-
 
 function gridSize(n) { 
     const size = n * n; 
