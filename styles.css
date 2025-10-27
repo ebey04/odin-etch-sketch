@@ -1,12 +1,16 @@
 #grid-container{
     border: 2px solid black;
     height: 40rem;
+    width: 100rem;
     display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .box{
-    border: 2px solid yellow;
-    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid purple;
+    height: 40rem;
     width: 50px;
 }

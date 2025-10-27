@@ -10,6 +10,8 @@ if (userInput !== null) {
   gridSize(num);
 } else {
   document.getElementById("output").textContent = `You clicked Cancel.`;
+
+  
 }
 
 }
@@ -19,10 +21,16 @@ btn.addEventListener("click", showPrompt);
 
 
 function gridSize(n) { 
-  const size = n * n; 
+    const size = n * n; 
+    const containerWidth = section.clientWidth;
+    const containerHeight = section.clientHeight;
+
   for (let i = 0; i < size; i++) { 
     const div = document.createElement('div'); 
     div.classList.add('box'); 
+div.style.width = `${containerWidth / n}px`;
+div.style.height = `${containerHeight / n}px`;
+
     div.addEventListener("mouseover", () => {
       div.classList.add('hover');
     });
