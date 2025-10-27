@@ -35,12 +35,12 @@ function gridSize(n) {
     for (let i = 0; i < size; i++) { 
     const div = document.createElement('div'); 
     div.classList.add('box'); 
-div.style.width = `${containerWidth / n}px`;
-div.style.height = `${containerHeight / n}px`;
+    div.style.width = `${containerWidth / n}px`;
+    div.style.height = `${containerHeight / n}px`;
 
     div.addEventListener("mouseover", () => {
-    div.style.backgroundColor = getRandomColor();
-    });
+        div.style.backgroundColor = getRandomColor();
+        });
     section.appendChild(div);
     }
 }
