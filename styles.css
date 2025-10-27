@@ -32,7 +32,8 @@ header{
 
 
 #grid-container{
-    border: 2px solid black;
+    border: 2px solid rgb(71, 70, 70);
+    border-radius: 10px;
     height: 40rem;
     width: 95rem;
     display: flex;
@@ -45,7 +46,7 @@ header{
 
 .box{
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 2px solid rgb(71, 70, 70);;
     height: 40rem;
     width: 50px;
 }
