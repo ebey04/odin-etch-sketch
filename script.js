@@ -1,5 +1,5 @@
 const section = document.getElementById('grid-container');
-const btn = document.querySelector('btn');
+const btn = document.querySelector('.btn');
 
 
 function showPrompt() {
@@ -10,6 +10,8 @@ function showPrompt() {
     } else {
         document.getElementById("output").textContent = `You clicked Cancel.`;
     }
+
+    gridSize(userInput);
 }
 
 btn.addEventListener("click", showPrompt);
