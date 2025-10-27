@@ -8,7 +8,7 @@ This project is a part of **The Odin Project JavaScript Foundations** track. It 
 
 ##  🚀 Live Demo
 
-View it here: ()
+View it here: (https://ebey04.github.io/odin-etch-sketch/)
 
 ---
 
