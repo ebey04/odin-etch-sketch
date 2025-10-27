@@ -20,6 +20,13 @@ function showPrompt() {
 
 btn.addEventListener("click", showPrompt);
 
+function getRandomColor() {
+        const red = Math.floor(Math.random() * 256);
+        const green = Math.floor(Math.random() * 256);
+        const blue = Math.floor(Math.random() * 256);
+        return `rgb(${red}, ${green}, ${blue})`;
+    }
+
 function gridSize(n) { 
     const size = n * n; 
     const containerWidth = section.clientWidth;
@@ -32,7 +39,7 @@ div.style.width = `${containerWidth / n}px`;
 div.style.height = `${containerHeight / n}px`;
 
     div.addEventListener("mouseover", () => {
-    div.classList.add('hover');
+    div.style.backgroundColor = getRandomColor();
     });
     section.appendChild(div);
     }
