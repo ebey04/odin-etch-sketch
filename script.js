@@ -7,11 +7,12 @@ function showPrompt() {
 
 if (userInput !== null) {
   const num = Number(userInput);
+  section.innerHTML = "";
   gridSize(num);
 } else {
   document.getElementById("output").textContent = `You clicked Cancel.`;
 
-  
+
 }
 
 }
