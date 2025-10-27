@@ -51,7 +51,7 @@ p{
 #grid-container{
     border: 2px solid rgb(71, 70, 70);
     border-radius: 10px;
-    height: 40rem;
+    height: 39rem;
     width: 95rem;
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +63,5 @@ p{
 
 .box{
     box-sizing: border-box;
-    border: 2px solid rgb(71, 70, 70);;
-    height: 40rem;
-    width: 50px;
+    border: 2px solid rgb(71, 70, 70);
 }
